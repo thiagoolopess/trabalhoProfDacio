@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>House Service — Sua Casa em Boas Mãos</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=Raleway:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="houseservice.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav id="navbar">
+      <a href="#" class="logo">
+        <img src="logo.jpeg" alt="logo" height="50">
+        House Service
+      </a>
+      <ul class="nav-links">
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#como-funciona">Como Funciona</a></li>
+        <li><a href="#reputacao">Reputação</a></li>
+        <li><a href="#planos">Planos</a></li>
+        <li><a href="#avaliacoes">Avaliações</a></li>
+      </ul>
+      <button class="nav-cta">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <rect x="3" y="4" width="18" height="18" rx="2" />
+          <line x1="16" y1="2" x2="16" y2="6" />
+          <line x1="8" y1="2" x2="8" y2="6" />
+          <line x1="3" y1="10" x2="21" y2="10" />
+        </svg>
+        Agendar Agora
+      </button>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-badge">✦ Plataforma de Serviços Domésticos</div>
+        <h1>Encontre <span>profissionais de confiança</span> para sua casa</h1>
+        <p class="hero-sub">
+          A House Service conecta você a diaristas, faxineiras, cuidadores e
+          jardineiros verificados, com avaliações reais e contratação segura —
+          tudo em um só lugar.
+        </p>
+        <div class="hero-actions">
+          <a href="#servicos" class="btn-primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <circle cx="11" cy="11" r="8" />
+              <line x1="21" y1="21" x2="16.65" y2="16.65" />
+            </svg>
+            Buscar Profissional
+          </a>
+          <a href="#como-funciona" class="btn-outline">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10" />
+              <polygon points="10 8 16 12 10 16 10 8" />
+            </svg>
+            Como Funciona
+          </a>
+        </div>
+        <div class="hero-trust">
+          <div class="trust-item">
+            <span class="trust-num">+2.400</span>
+            <span class="trust-label">Profissionais verificados</span>
+          </div>
+          <div class="trust-item">
+            <span class="trust-num">98%</span>
+            <span class="trust-label">Satisfação dos clientes</span>
+          </div>
+          <div class="trust-item">
+            <span class="trust-num">47+</span>
+            <span class="trust-label">Cidades atendidas</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-card-main">
+          <div class="hero-room-illustration">🏠</div>
+          <div class="hero-overlay-card">
+            <div class="professional-avatar">👩</div>
+            <div class="overlay-info">
+              <div class="overlay-name">Maria Silva</div>
+              <div class="overlay-role">Diarista Profissional</div>
+              <div class="overlay-stars">★★★★★ 4.9</div>
+            </div>
+            <div class="overlay-check">✓ Verificada</div>
+          </div>
+        </div>
+        <div class="hero-mini-cards">
+          <div class="mini-card">
+            <div class="mini-icon">🔍</div>
+            <div class="mini-title">Busca por Região</div>
+            <div class="mini-desc">Encontre profissionais perto de você</div>
+          </div>
+          <div class="mini-card">
+            <div class="mini-icon">🛡️</div>
+            <div class="mini-title">100% Verificados</div>
+            <div class="mini-desc">Checagem de segurança em todos</div>
+          </div>
+          <div class="mini-card">
+            <div class="mini-icon">⭐</div>
+            <div class="mini-title">Avalie Sempre</div>
+            <div class="mini-desc">Sistema de reputação transparente</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS BANNER -->
+    <div class="stats-banner">
+      <div class="stat-item">
+        <div class="stat-num">2.400+</div>
+        <div class="stat-label">Profissionais na plataforma</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">15 mil+</div>
+        <div class="stat-label">Serviços realizados</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">4.9 ★</div>
+        <div class="stat-label">Avaliação média</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">47</div>
+        <div class="stat-label">Cidades atendidas</div>
+      </div>
+    </div>
+
+    <!-- SERVICES -->
+    <section id="servicos" class="services-section">
+      <div class="reveal">
+        <div class="section-label">✦ Categorias</div>
+        <h2 class="section-title">Serviços para cada necessidade da sua casa</h2>
+        <p class="section-sub">
+          Da limpeza ao cuidado — encontre o profissional certo filtrando por
+          tipo de serviço e região.
+        </p>
+      </div>
+      <div class="services-grid reveal">
+        <div class="service-card">
+          <div class="service-icon">🧹</div>
+          <div class="service-name">Diarista</div>
+          <div class="service-desc">
+            Limpeza regular da sua casa com profissionais de confiança e verificados.
+          </div>
+          <div class="service-arrow">→</div>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🧽</div>
+          <div class="service-name">Faxina Completa</div>
+          <div class="service-desc">
+            Limpeza profunda e detalhada para renovar cada canto do seu lar.
+          </div>
+          <div class="service-arrow">→</div>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">👴</div>
+          <div class="service-name">Cuidador(a)</div>
+          <div class="service-desc">
+            Profissionais dedicados ao cuidado de idosos e pessoas que precisam de atenção especial.
+          </div>
+          <div class="service-arrow">→</div>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🌱</div>
+          <div class="service-name">Jardineiro</div>
+          <div class="service-desc">
+            Manutenção, poda e cuidado de jardins e áreas externas com expertise.
+          </div>
+          <div class="service-arrow">→</div>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🍳</div>
+          <div class="service-name">Cozinheiro(a)</div>
+          <div class="service-desc">
+            Refeições preparadas em casa por profissionais especializados em culinária.
+          </div>
+          <div class="service-arrow">→</div>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🔧</div>
+          <div class="service-name">Manutenção Geral</div>
+          <div class="service-desc">
+            Pequenos reparos, instalações e consertos para manter tudo funcionando.
+          </div>
+          <div class="service-arrow">→</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section id="como-funciona">
+      <div class="how-grid">
+        <div>
+          <div class="reveal">
+            <div class="section-label">✦ Simples e Rápido</div>
+            <h2 class="section-title">Como a plataforma funciona</h2>
+            <p class="section-sub">
+              Em poucos passos você encontra e contrata o profissional ideal,
+              com total segurança.
+            </p>
+          </div>
+          <div class="steps-list">
+            <div class="step">
+              <div class="step-num">01</div>
+              <div class="step-content">
+                <div class="step-title">Busque por serviço e região</div>
+                <div class="step-desc">
+                  Use os filtros para encontrar profissionais disponíveis na sua
+                  cidade, na categoria que você precisa.
+                </div>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-num">02</div>
+              <div class="step-content">
+                <div class="step-title">Compare perfis e avaliações</div>
+                <div class="step-desc">
+                  Veja o histórico, reputação e avaliações de outros clientes
+                  para escolher com confiança.
+                </div>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-num">03</div>
+              <div class="step-content">
+                <div class="step-title">Contrate com segurança</div>
+                <div class="step-desc">
+                  Todos os profissionais passam por verificação de segurança
+                  antes de aparecer na plataforma.
+                </div>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-num">04</div>
+              <div class="step-content">
+                <div class="step-title">Avalie e contribua</div>
+                <div class="step-desc">
+                  Após o serviço, deixe sua avaliação. Isso ajuda outros
+                  clientes e recompensa quem trabalha bem.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="how-visual reveal">
+          <div class="profile-card-big">
+            <div class="profile-avatar avatar-a">👩</div>
+            <div class="profile-info">
+              <div class="profile-name">Maria Silva</div>
+              <div class="profile-role">Diarista • São Paulo, SP</div>
+              <div class="profile-rating">
+                <span class="stars">★★★★★</span>
+                <span class="rating-num">4.9</span>
+                <span class="reviews-count">(142 avaliações)</span>
+              </div>
+            </div>
+            <div class="verified-badge">✓ Verificada</div>
+          </div>
+          <div class="profile-card-big">
+            <div class="profile-avatar avatar-b">👨</div>
+            <div class="profile-info">
+              <div class="profile-name">Carlos Mota</div>
+              <div class="profile-role">Jardineiro • Curitiba, PR</div>
+              <div class="profile-rating">
+                <span class="stars">★★★★★</span>
+                <span class="rating-num">4.8</span>
+                <span class="reviews-count">(89 avaliações)</span>
+              </div>
+            </div>
+            <div class="verified-badge">✓ Verificado</div>
+          </div>
+          <div class="profile-card-big">
+            <div class="profile-avatar avatar-c">👩</div>
+            <div class="profile-info">
+              <div class="profile-name">Ana Ferreira</div>
+              <div class="profile-role">Cuidadora • Campinas, SP</div>
+              <div class="profile-rating">
+                <span class="stars">★★★★★</span>
+                <span class="rating-num">5.0</span>
+                <span class="reviews-count">(67 avaliações)</span>
+              </div>
+            </div>
+            <div class="verified-badge">✓ Verificada</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REPUTATION -->
+    <section id="reputacao" class="reputation-section">
+      <div class="rep-grid">
+        <div class="reveal">
+          <div class="section-label">✦ Sistema de Reputação</div>
+          <h2 class="section-title">Quanto mais você entrega, mais você cresce</h2>
+          <p class="section-sub">
+            Profissionais que chegam com avaliações iniciais acessíveis e vão
+            aumentando seus preços conforme constroem reputação na plataforma.
+          </p>
+          <div class="rep-cards" style="margin-top: 36px">
+            <div class="rep-card">
+              <div class="rep-card-icon">🏁</div>
+              <div class="rep-card-title">Início acessível</div>
+              <div class="rep-card-desc">
+                Novos profissionais entram com uma taxa mínima competitiva,
+                facilitando as primeiras contratações e a construção de histórico.
+              </div>
+            </div>
+            <div class="rep-card">
+              <div class="rep-card-icon">📈</div>
+              <div class="rep-card-title">Crescimento por mérito</div>
+              <div class="rep-card-desc">
+                Avaliações positivas aumentam a reputação e desbloqueiam a
+                capacidade de cobrar mais pelo seu serviço.
+              </div>
+            </div>
+            <div class="rep-card">
+              <div class="rep-card-icon">🏆</div>
+              <div class="rep-card-title">Elite da plataforma</div>
+              <div class="rep-card-desc">
+                Profissionais com alta reputação ganham destaque nas buscas e
+                acesso a funcionalidades premium.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="rep-visual reveal">
+          <div class="rep-chart">
+            <div style="font-family: 'Syne', sans-serif; font-weight: 700; color: white; margin-bottom: 20px; font-size: 1rem;">
+              Evolução de Reputação
+            </div>
+            <div class="rep-label-row">
+              <span>Iniciante</span><span>0 avaliações</span>
+            </div>
+            <div class="rep-bar-wrap">
+              <div class="rep-bar" data-width="20%"></div>
+            </div>
+            <div class="rep-label-row">
+              <span>Em crescimento</span><span>+10 avaliações</span>
+            </div>
+            <div class="rep-bar-wrap">
+              <div class="rep-bar" data-width="45%"></div>
+            </div>
+            <div class="rep-label-row">
+              <span>Estabelecido</span><span>+50 avaliações</span>
+            </div>
+            <div class="rep-bar-wrap">
+              <div class="rep-bar" data-width="68%"></div>
+            </div>
+            <div class="rep-label-row">
+              <span>Top Profissional</span><span>+100 avaliações</span>
+            </div>
+            <div class="rep-bar-wrap">
+              <div class="rep-bar" data-width="90%"></div>
+            </div>
+          </div>
+          <div style="background: rgba(255,255,255,0.05); border-radius: 12px; padding: 20px; border: 1px solid rgba(255,255,255,0.08);">
+            <div style="font-size: 0.78rem; color: rgba(255,255,255,0.4); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.08em;">
+              Profissional Destaque
+            </div>
+            <div style="display: flex; align-items: center; gap: 14px;">
+              <div style="width: 48px; height: 48px; border-radius: 12px; background: linear-gradient(135deg, #00bfa6, #009688); display: flex; align-items: center; justify-content: center; font-size: 1.4rem;">
+                👩
+              </div>
+              <div>
+                <div style="color: white; font-family: 'Syne', sans-serif; font-weight: 700;">
+                  Maria Silva
+                </div>
+                <div style="color: rgba(255,255,255,0.5); font-size: 0.78rem;">
+                  142 avaliações • R$ 120/diária
+                </div>
+                <div style="color: #ffb400; font-size: 0.8rem; margin-top: 2px;">
+                  ★★★★★ 4.9
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PLANS -->
+    <section id="planos">
+      <div style="text-align: center" class="reveal">
+        <div class="section-label" style="justify-content: center">✦ Planos</div>
+        <h2 class="section-title">O plano certo para você</h2>
+        <p class="section-sub" style="margin: 0 auto">
+          Seja cliente ou profissional, temos um plano pensado para maximizar
+          sua experiência na plataforma.
+        </p>
+      </div>
+      <div class="plans-grid reveal">
+        <div class="plan-card">
+          <div class="plan-name">Gratuito</div>
+          <div class="plan-price-wrap">
+            <div class="plan-price">R$ 0,00</div>
+            <div class="plan-per">para sempre</div>
+          </div>
+          <ul class="plan-features">
+            <li>Busca por região</li>
+            <li>Ver perfis e avaliações</li>
+            <li>Até 3 contratações/mês</li>
+            <li>Suporte via chat</li>
+          </ul>
+          <button class="plan-btn">Começar Grátis</button>
+        </div>
+        <div class="plan-card featured">
+          <div class="plan-badge">Mais Popular</div>
+          <div class="plan-name">Mensal</div>
+          <div class="plan-price-wrap">
+            <div class="plan-price">R$ 39,00</div>
+            <div class="plan-per">/mês por pessoa</div>
+          </div>
+          <ul class="plan-features">
+            <li>Contratações ilimitadas</li>
+            <li>Prioridade nas buscas</li>
+            <li>Suporte prioritário 24/7</li>
+            <li>Acesso a profissionais Elite</li>
+            <li>Histórico completo</li>
+          </ul>
+          <button class="plan-btn">Assinar Agora</button>
+        </div>
+        <div class="plan-card">
+          <div class="plan-name">Profissional</div>
+          <div class="plan-price-wrap">
+            <div class="plan-price">R$ 29,00</div>
+            <div class="plan-per">/mês por prestador</div>
+          </div>
+          <ul class="plan-features">
+            <li>Perfil em destaque</li>
+            <li>Receber contratações ilimitadas</li>
+            <li>Badge verificado premium</li>
+            <li>Relatórios de desempenho</li>
+            <li>Menor taxa de serviço</li>
+          </ul>
+          <button class="plan-btn">Para Profissionais</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section id="avaliacoes" class="reviews-section">
+      <div style="text-align: center" class="reveal">
+        <div class="section-label" style="justify-content: center">✦ Avaliações</div>
+        <h2 class="section-title">O que nossos usuários dizem</h2>
+        <p class="section-sub" style="margin: 0 auto">
+          Avaliações reais de clientes que já contrataram e profissionais que já
+          prestaram serviços.
+        </p>
+      </div>
+      <div class="reviews-grid reveal">
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <div class="review-text">
+            "Encontrei uma diarista incrível em menos de 10 minutos. Já é a
+            terceira vez que contrato pela plataforma e nunca tive problemas."
+          </div>
+          <div class="reviewer">
+            <div class="reviewer-avatar" style="background: #e0f7f4">😊</div>
+            <div>
+              <div class="reviewer-name">Juliana M.</div>
+              <div class="reviewer-tag">Cliente • Curitiba, PR</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <div class="review-text">
+            "Como cuidadora, a plataforma me ajudou a construir minha reputação
+            do zero. Hoje tenho agenda cheia e cobro bem pelo meu trabalho."
+          </div>
+          <div class="reviewer">
+            <div class="reviewer-avatar" style="background: #fff3e0">👩</div>
+            <div>
+              <div class="reviewer-name">Fernanda R.</div>
+              <div class="reviewer-tag">Profissional • São Paulo, SP</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <div class="review-text">
+            "A verificação de segurança me deu muito mais confiança para
+            contratar. Antes eu nunca sabia se podia confiar, agora é tranquilo."
+          </div>
+          <div class="reviewer">
+            <div class="reviewer-avatar" style="background: #f3e5f5">🧑</div>
+            <div>
+              <div class="reviewer-name">Roberto K.</div>
+              <div class="reviewer-tag">Cliente • Campinas, SP</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <h2 class="cta-title">Sua casa <span>merece os melhores</span> profissionais</h2>
+      <p class="cta-sub">Cadastre-se gratuitamente e encontre quem cuida bem do seu lar.</p>
+      <div class="cta-actions">
+        <a href="#" class="btn-white">Sou Cliente — Encontrar Profissional</a>
+        <a href="#" class="btn-ghost-white">Sou Profissional — Cadastrar Meus Serviços</a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="footer-logo">
+            <div class="logo-icon">
+              <svg viewBox="0 0 24 24" width="20" height="20">
+                <path fill="white" d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
+              </svg>
+            </div>
+            House Service
+          </a>
+          <p class="footer-tagline">
+            A plataforma que conecta você a profissionais verificados para
+            cuidar do seu lar com segurança e confiança.
+          </p>
+        </div>
+        <div>
+          <div class="footer-col-title">Serviços</div>
+          <ul class="footer-links">
+            <li><a href="#">Diaristas</a></li>
+            <li><a href="#">Faxina Completa</a></li>
+            <li><a href="#">Cuidadores</a></li>
+            <li><a href="#">Jardineiros</a></li>
+            <li><a href="#">Manutenção</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">Plataforma</div>
+          <ul class="footer-links">
+            <li><a href="#">Como Funciona</a></li>
+            <li><a href="#">Verificação de Segurança</a></li>
+            <li><a href="#">Sistema de Reputação</a></li>
+            <li><a href="#">Planos e Preços</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">Empresa</div>
+          <ul class="footer-links">
+            <li><a href="#">Sobre Nós</a></li>
+            <li><a href="#">Para Profissionais</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>©️ 2025 House Service. Todos os direitos reservados.</span>
+        <span>Feito com ♥️ para conectar pessoas</span>
+      </div>
+    </footer>
+
+    <script src="houseservice.js"></script>
+  </body>
+</html>
